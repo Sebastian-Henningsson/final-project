@@ -1,0 +1,627 @@
+/*================= CSS RESET ================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*================= MY STYLES ================== */
+
+
+
+
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+h1 {
+    font-size: 71px;
+    line-height: 98px;
+    font-weight: bold;
+}
+h2{
+    font-size: 48px;
+    line-height: 1;
+    font-weight: bold;
+}
+h3 {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+p {
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+/*==================================== HEADER ======================================= */
+
+header {
+    width: 100%;
+}
+
+header nav{
+    background: #222;
+    padding: 14px;
+    display: block;
+}
+
+header nav ul li a{
+    display: block;
+    color:#c78b07;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1px;
+}
+header nav ul li.current a{
+    color:#222;
+    background: #c78b07;
+}
+
+header .logo {
+    background: #c78b07;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+nav form {
+    width: 100%;
+    display: inline-block;
+    margin-right: 14px;
+}
+.search input{
+    padding: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    float: left;
+    width: 90%;
+}
+.search button{
+    width: 42px;
+    height: 42px;
+    background: #222;
+    color: #c78b07;
+    font-size: 17px;
+    border: 1px solid #c78b07;
+    position: absolute;    
+}
+
+/*================= INTRO ================== */
+.main-banner{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.intro .container {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+.container .content{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    overflow: hidden;
+}
+.container .content p{ 
+padding-right: 40px;
+padding-top: 20px;
+} 
+.intro .container button{
+    text-decoration: none;
+    color: black;
+    background-color: #c78b07;
+    padding: 30px;
+    border: none;
+    font-size: 21px;
+}
+
+/*================= ABOUT ================== */
+.section-about{
+    background: #ffe6ac;
+    display: block;
+}
+.about-us-img {
+    width: 100%;
+    padding: 14px;
+}
+.section-about h2{
+    margin-bottom: 42px;
+    margin-top: 42px;
+    margin-left: 14px;
+    margin-left: 14px;
+}
+.section-about p{
+    margin-left: 14px;
+    margin-left: 14px;
+    padding-bottom: 35px;
+}
+/*================= SERVICES ================== */
+.services h2{
+    margin-top: 52px;
+    margin-bottom: 16px;
+    margin-left: 14px;
+}
+.services p{
+    margin-top: 18px;
+    margin-left: 14px;
+}
+.services h3{
+    margin-top: 38px;
+    margin-left: 14px;
+}
+.services button {
+    text-decoration: none;
+    color: white;
+    background-color: #222;
+    font-size: 21px;
+    padding: 30px;
+    margin: 14px;
+    border:none;
+}
+.digital {
+    background: #ffe6ac;
+    margin: 14px;
+}
+.digital-img {
+    width: 100%;
+}
+.marketing {
+    background: #ffe6ac;
+    margin: 14px;
+}
+.marketing-img {
+    width: 100%;
+}
+.video-img {
+    width: 100%;
+}
+.video {
+    background: #ffe6ac;
+    margin: 14px;
+}
+.web-img {
+    width: 100%;
+}
+.web{
+    background: #ffe6ac;
+    margin: 14px; 
+}
+.print-img {
+    width: 100%;
+}
+.print {
+    background: #ffe6ac;
+    margin: 14px; 
+}
+
+/*================= VISION ================== */
+
+.vision-img{
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+.our-vision .container {
+    position: relative;
+    width: 100%;
+    height: 280px;
+}
+.container .vision-text{
+    position: absolute;
+    top: 0px;
+    padding: 20px;
+    color: #f1f1f1;
+    overflow: hidden;
+}
+.vision-text h3 {
+    margin-top: 20px;
+}
+.vision-text p {
+    margin-top: 20px;
+}
+.vision-text button {
+text-decoration: none;
+color: white;
+background-color: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */;
+font-size: 21px;
+padding: 30px;
+margin-top: 14px;
+border-color: #c78b07;
+border-width: 1px;
+}
+
+/*================= OUR TEAM ================== */
+.our-team h2 {
+    margin-top: 52px;
+    margin-bottom: 16px;
+    margin-left: 14px;
+}
+.our-team p{
+    margin-top: 18px;
+    margin-left: 14px;
+    padding-bottom: 32px;
+}
+.our-team h3{
+    margin-top: 38px;
+    margin-left: 14px;
+}
+.our-team h4{
+    margin-top: 10px;
+    margin-left: 14px;
+    border-bottom: 2px solid #c78b07;
+    border-width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 14px;
+}
+
+.john-img {
+    width: 100%;
+}
+.john-bio {
+    background: #ffe6ac;
+    margin: 14px;
+}
+.bob-img {
+    width: 100%;
+}
+.bob-bio {
+    background: #ffe6ac;
+    margin: 14px;
+}
+
+/*================= CONTACT ================== */
+.contact h2 {
+    margin-top: 52px;
+    margin-left: 14px;
+}
+.contact h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.contact-container {
+    padding: 14px;
+    width: 100%;
+}
+.contact-container textarea{
+    width: 100%;
+}
+.contact-container input {
+    font-size: 20px;
+    color: #c78b07;
+    background-color:#222;
+    margin-top: 20px;
+    border:none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.contact-container iframe {
+    width: 100%;
+}
+#hours {
+    width: 100%;
+}
+#hours th, #hours td{
+    border:1px solid black;
+    padding: 8px;
+}
+#hours th {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    background-color: #ffe6ac;
+    color: black;
+  }
+  #hours td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: left;
+    color: black;
+  }
+
+/*================= FOOTER ================== */
+footer {
+    background: #222;
+    color: #c78b07;
+    padding-top: 30px ;
+    padding-left: 14px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/*================= DESKTOP ================== */
+ 
+@media screen and (min-width: 760px) {
+
+        body {
+            background: white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+        }
+
+        h1 {
+            font-size: 81px;
+            line-height: 112px;
+            font-weight: bold;
+        }
+
+        h2{
+            font-size: 54px;
+            line-height: 1;
+            font-weight: bold;
+        }
+        
+        p {
+            font-size: 100%;
+            line-height: 1.5;
+    }
+
+    /* HEADER */
+    
+
+        header nav{
+            padding: 0;
+        }
+
+        header .logo {
+            background:none;
+            padding:none;
+        }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 20px;
+
+    }
+    h1 {
+        font-size: 112px;
+    }
+    /*==================================== HEADER ======================================= */
+    
+    
+    
+    header {
+        width: 100%;
+        background: #222;
+    }
+    
+    .logo{
+        float: left;
+        margin-top: 35px ;
+        margin-left: 135px;
+        margin-bottom: 35px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display:inline-block;
+        color: #c78b07;
+        text-align: center;
+        padding: 75px 40px;
+        margin-top: 60px ;
+        margin-bottom: 60px;
+        margin-left: 70px;
+        text-decoration: none;
+      }
+
+        nav form {
+        position: relative;
+        width: 15%;
+        margin-left: 1150px ;
+        margin-bottom: 10px;
+      }
+
+          /*==================================== INTRO ======================================= */
+
+    .main-banner{
+    height: 750px;
+}
+.container .content{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+h1 {
+    padding-top: 60px;
+    line-height: 150px;
+}
+.intro p {
+    margin-bottom: 30px;
+}
+.intro .container button{ 
+    font-size: 24px;
+    padding: 40px;
+}
+
+          /*==================================== ABOUT ======================================= */
+.about-us-img {
+    width: 575px;
+    object-fit: cover;
+    float: left;
+}
+.section-about p {
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+.section-about h2 {
+    font-size: 54px;
+    padding-top:30px;
+    margin-bottom: 35px;
+}/*==================================== SERVICES ======================================= */
+
+
+.services .container h2{
+    margin-left: 205px;
+}
+
+.services-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.services-container .block:nth-child(1){
+    flex-basis: 50%;
+}
+.services-container .block:nth-child(2){
+    flex-basis: 50%;
+}
+.services-container .block:nth-child(3){
+    flex-basis: 33.333%;
+}
+.services-container .block:nth-child(4){
+    flex-basis: 33.333%;
+}
+.services-container .block:nth-child(5){
+    flex-basis: 33.333%;
+}
+.services button {
+    margin: 15px;
+    width: 95%;
+}
+/*================= VISION ================== */
+
+.our-vision {
+    margin-left: 25px;
+}
+.vision-img {
+    height: 400px;
+}
+
+/*================= TEAM ================== */
+.team-container h2 {
+    padding-top: 140px;
+}
+.team-container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.john-img {
+    margin-right: 20px;
+    padding: 0;
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+    float: left;
+}
+.our-team p{
+    margin:0;
+    padding-bottom: 211.5px;
+}
+.bob-img {
+    margin-left: 20px;
+    padding: 0;
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+    float: right;
+}
+
+/*================= CONTACT ================== */
+.contact {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.contact-container textarea{
+    width:590px;
+}
+.contact-container iframe {
+    width: 590px;
+}
+.contact-container {
+    margin-left: auto;
+    margin-right: auto;
+    display:grid;
+    display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows:repeat(3,1fr);
+  grid-template-areas:
+  "s1 s1 s1 s2 s2 s2" 
+  "s1 s1 s1 s2 s2 s2" 
+  "s3 s3 s3 s3 s3 s3"
+}
+
+.contact-container .block:nth-child(1){
+    grid-area:s1;
+}
+.contact-container .block:nth-child(2){
+    grid-area:s3;
+}
+.contact-container .block:nth-child(3){
+  grid-area:s2;
+}
+
+
+
+
+
+}
